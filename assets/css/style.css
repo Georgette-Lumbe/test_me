@@ -33,14 +33,13 @@ header {
 
 .logo {
     cursor: pointer;
-    color: #394648;
     padding-top: 5px;
 }
 
 .logo a {
     margin: 15px;
     text-decoration: none;
-    color: #394648;
+    color: #69995d;;
 }
 
 /*Customise the info box*/
@@ -125,7 +124,7 @@ header {
 }
 
 .optionList .option {
-    padding: 15px;
+    padding: 13px 15px;
     line-height: 22px;
     background-color: #edb6a3;
     border-radius: 5px;
