@@ -1,5 +1,5 @@
-
-////Creating an array and passing the number, questions, options, and answers
+//some of questions and options are sourced from https://triviaquestions4u.com/multiple-choice-trivia-questions-and-answer/
+//creating an array and passing the number, questions, options, and answers
 let quiz = [
     {
         question: 'Who was elected President of the United States in 2017?',
