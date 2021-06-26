@@ -26,8 +26,23 @@ function getNewQuestion(){
     const questionIndex = accessibleQuestions[Math.floor(Math.random() * accessibleQuestions.length)]
     currentQuestion = questionIndex;
     questionText.innerHTML = currentQuestion.question;
-   // console.log(questionIndex)
+    
+    //get the position of questionIndex from the accessibleQuestion array
+    const indexOne = accessibleQuestions.indexOf(questionIndex);
+    
+    //remove the questionIndex from the accessibleQuestion array, so that the question doesn't repeat
+    accessibleQuestions.splice(indexOne,1);
+   
+    
+    questionCounter++
+}
 
+function next (){
+    if(questionCounter === quiz.length){
+        console.log("questions are over")
+    } else {
+        getNewQuestion();
+    }
 }
 
 window.onload = function(){
