@@ -9,22 +9,22 @@ let quiz = [
     {
         question: 'What is the national language of Canada?',
         options: ['English','Dutch','French'],
-        answer:1
+        answer: 2
     },
     {
         question: 'A la Crecy is a French dish made of what?',
         options: ['Apples', 'Carrots', 'Potatoes'],
-        answer:0
+        answer: 3
     },
     {
         question: '70 - 33 = 103?',
         options: ['true', 'false'],
-        answer:2
+        answer: 1
     },
     {
         question: 'Which core ingredient is important to cook a savory dish?',
         options: ['Salt', 'Butter', 'Sugar'],
-        answer:3
+        answer: 2
     },
 
 ]

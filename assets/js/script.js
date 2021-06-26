@@ -42,7 +42,8 @@ function getNewQuestion(){
         accessibleOptions.push(i)
     }
 
-    let animationDelay = 0.10;
+    optionList.innerHTML = '';
+    let animationDelay = 0.15;
 
    // create options in html
    for(let i = 0; i < optionLength; i++){
@@ -59,11 +60,28 @@ function getNewQuestion(){
        option.innerHTML = currentQuestion.options[optionIndex];
        option.id = optionIndex;
        option.style.animationDelay = animationDelay + 's';
-       animationDelay = animationDelay + 0.10;
+       animationDelay = animationDelay + 0.15;
        option.className = "option";
        optionList.appendChild(option)
+       option.setAttribute('onclick', 'getFeedback(this)');
    }
     questionCounter++
+}
+
+// get the feedback of current attempt question
+function getFeedback(element){
+    const id = parseInt(element.id);
+
+    // get the answer by comparing the id clicked option
+    if(id === currentQuestion.answer){
+
+        // set the green color to the correct option
+        element.classList.add('correct');
+    }
+    else {
+        // set the red color to the incorrect option
+        element.classList.add('incorrect');
+    }
 }
 
 function next (){

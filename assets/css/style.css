@@ -131,8 +131,10 @@ header {
     margin-bottom: 10px;
     cursor: pointer;
     text-transform: capitalize;
+    position: relative;
+    overflow: hidden;
 
-    /* Put an animation to options /help from tutorial*/
+    /* put an animation to options /help from tutorial*/
     opacity: 0.5;
     animation:  fadeIn 0.3s ease forwards; 
 }
@@ -144,6 +146,55 @@ header {
     100% {
         opacity: 1;
     }
+}
+
+/* set the green color to the correct answer /help from tutorial*/
+.quizBox .optionList .option.correct::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(162, 221, 162);
+    z-index: -1;
+
+    /* put an animation to correct answer*/
+    animation: slideInLeft .5s ease forwards;
+}
+
+@keyframes slideInLeft {
+    0% {
+        transform: translate(-100%);
+    }
+    100% {
+        transform: translate(0%); 
+    }
+}
+
+.quizBox .optionList .option.correct {
+    color: #f8e9e9;
+    border: 2px solid #69995d;
+}
+
+/* set the red color to the incorrect answer*/
+.quizBox .optionList .option.incorrect::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(185, 91, 91);
+    z-index: -1;
+
+    /* put an animation to incorrect answer*/
+    animation: slideInLeft .5s ease forwards;
+}
+
+.quizBox .optionList .option.incorrect {
+    color: #f8e9e9;
+    border: 2px solid rgb(241, 74, 74);
 }
 
 .quizBox .btn {
