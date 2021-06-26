@@ -208,3 +208,72 @@ Once you fill the form, it will bring you to the thank you page:
 * Manual testing of the restart button and the exit icon, when they have been clicked on all boxes:
 
 ![]()
+
+# Automated Testing
+
+## Code Validation
+
+1. W3C Markup Validator service was used to validate the HTML code used.
+
+* Index html
+<img src="" width="100%" height="100%">
+
+2. W3C validator CSS service was used to validate the CSS code used.
+
+<img src="" width="100%" height="100%">
+
+3. JavaScript
+
+* script.js
+
+<img src="" width="100%" height="100%">
+
+* questions.js
+
+<img src="" width="100%" height="100%">
+
+## Browser Validation
+
+1. Chrome
+
+<img src="" width="100%" height="100%">
+
+2. Edge
+
+<img src="" width="100%" height="100%">
+
+3. Opera
+
+<img src="" width="100%" height="100%">
+
+4. Firefox
+
+<img src="" width="100%" height="100%">
+
+## Lighthouse Auditing
+
+*  Find the desktop and mobile full reports
+
+<details>
+<summary>Desktop</summary>
+<img src="" width="100%" height="100%">
+<img src="" width="100%" height="100%">
+<img src="" width="100%" height="100%">
+<img src="" width="100%" height="100%">
+<img src="" width="100%" height="100%">
+<img src="" width="100%" height="100%">
+<img src="" width="100%" height="100%">
+</details>
+
+<details>
+<summary>Mobile</summary>
+<img src="" width="100%" height="100%">
+<img src="" width="100%" height="100%">
+<img src="" width="100%" height="100%">
+<img src="" width="100%" height="100%">
+<img src="" width="100%" height="100%">
+<img src="" width="100%" height="100%">
+<img src="" width="100%" height="100%">
+</details>
+
+# User testing
