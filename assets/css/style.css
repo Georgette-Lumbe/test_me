@@ -148,8 +148,12 @@ header {
     }
 }
 
+.optionList .option.already_selected {
+    pointer-events: none;
+}
+
 /* set the green color to the correct answer /help from tutorial*/
-.quizBox .optionList .option.correct::before {
+.optionList .option.correct::before {
     content: '';
     position: absolute;
     left: 0;
@@ -172,13 +176,13 @@ header {
     }
 }
 
-.quizBox .optionList .option.correct {
+.optionList .option.correct {
     color: #f8e9e9;
     border: 2px solid #69995d;
 }
 
 /* set the red color to the incorrect answer*/
-.quizBox .optionList .option.incorrect::before {
+.optionList .option.incorrect::before {
     content: '';
     position: absolute;
     left: 0;
@@ -192,7 +196,7 @@ header {
     animation: slideInLeft .5s ease forwards;
 }
 
-.quizBox .optionList .option.incorrect {
+.optionList .option.incorrect {
     color: #f8e9e9;
     border: 2px solid rgb(241, 74, 74);
 }

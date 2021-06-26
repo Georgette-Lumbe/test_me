@@ -82,6 +82,17 @@ function getFeedback(element){
         // set the red color to the incorrect option
         element.classList.add('incorrect');
     }
+
+    unavailableOptions();
+}
+
+// make all the options unclickable once the user select an option, the user can not change the option again
+function unavailableOptions() {
+    const optionLength = optionList.children.length;
+    for(let i = 0; i < optionLength; i++){
+        optionList.children[i].classList.add("already_selected");
+    }
+
 }
 
 function next (){
