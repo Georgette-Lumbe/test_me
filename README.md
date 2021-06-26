@@ -45,3 +45,9 @@ Responsiveness images
 
 9. [Acknowledgements](#acknowledgements "Goto acknowledgements")
 ---
+
+# INTRODUCTION
+
+TestME is a fun, interactive website that engages the user in a general knowledge quiz with questions on geography, math, history, cooking and more. It is a timed multiple choice game, with random questions and answers each time the user starts the quiz.  The user can see the quiz instructions before starting and after completing the quiz they can see their score and have the option to replay the quiz. 
+
+This is the second of five milestone projects that the developer is required to complete as part of their full web development course at the Code Institute. The main requirements were to create a responsive and interactive website using mainly *HTML5*, *CSS3* and *JavaScript*.
