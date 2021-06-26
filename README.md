@@ -44,6 +44,7 @@ Responsiveness images
     - [code](#code "code")
 
 9. [Acknowledgements](#acknowledgements "Goto acknowledgements")
+
 ---
 
 # INTRODUCTION
