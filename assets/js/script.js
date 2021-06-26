@@ -7,6 +7,7 @@ const optionList =  document.querySelector('.optionList');
 let questionCounter = 0;
 let currentQuestion;
 let accessibleQuestions = [];
+let accessibleOptions = [];
 
 // push the questions into accessibleQuestions Array
 function setAccessibleQuestions(){
@@ -27,12 +28,15 @@ function getNewQuestion(){
     currentQuestion = questionIndex;
     questionText.innerHTML = currentQuestion.question;
     
-    //get the position of questionIndex from the accessibleQuestion array
+    // get the position of questionIndex from the accessibleQuestion array
     const indexOne = accessibleQuestions.indexOf(questionIndex);
     
-    //remove the questionIndex from the accessibleQuestion array, so that the question doesn't repeat
+    // remove the questionIndex from the accessibleQuestion array, so that the question doesn't repeat
     accessibleQuestions.splice(indexOne,1);
    
+    // set options and get the length of options
+    const optionLength = currentQuestion.options.length
+    console.log(currentQuestion.options);
     
     questionCounter++
 }
