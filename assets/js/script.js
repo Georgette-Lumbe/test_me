@@ -1,5 +1,5 @@
-
-//getting all required elements
+// the developer got help from YouTube Tutorials which is referenced in the README file (credits)
+// get all required elements
 const questionNumber =  document.querySelector('.questionNumber');
 const questionText =  document.querySelector('.questionText');
 const optionList =  document.querySelector('.optionList');
@@ -37,12 +37,18 @@ function getNewQuestion(){
     // set options and get the length of options
     const optionLength = currentQuestion.options.length
 
-    //push options into accessibleOptions array
+    // push options into accessibleOptions array
     for(let i = 0; i < optionLength; i++){
         accessibleOptions.push(i)
     }
-   
-    
+   // create options in html
+   for(let i = 0; i < optionLength; i++){
+       const option = document.createElement("div");
+       option.innerHTML = currentQuestion.options[i];
+       option.id = i;
+       option.className = "option";
+       optionList.appendChild(option)
+   }
     questionCounter++
 }
 
