@@ -77,3 +77,134 @@
 * I would like to see new questions
 
     - Questions and answers are randomly so the user will find new questions.
+
+# Manual Testing
+
+## Common Elements Testing
+
+Manual testing was directed on the following elements that appear on every box and page:
+
+* Hovering over social media links will be trigger hover effect and clicking on them will open a new tab.
+
+![]()
+
+Facebook
+
+![]()
+
+Instagram
+
+![]()
+
+Youtube
+
+![]()
+
+## Home Page
+
+* Manual testing for the info box when the start quiz button is clicked:
+
+![]()
+
+* The responsiveness of the Home Page with the info Box
+
+![]()
+
+- Desktop 
+
+![]()
+
+- Tablet
+
+![]()
+
+- Phone
+
+![]()
+
+
+## Quiz Box
+
+* Manual testing for the quiz box
+
+![]()
+
+The responsiveness of the quiz box
+
+![]()
+
+- Desktop 
+
+![]()
+
+- Tablet
+
+![]()
+
+- Phone
+
+![]()
+
+## Feedback Box
+
+Manual testing for the Feedback box when the user finish the quiz:
+
+![]()
+
+The responsiveness of the feedback box
+
+![]()
+
+- Desktop 
+
+![]()
+
+- Tablet
+
+![]()
+
+- Phone
+
+![]()
+
+## Help box
+
+Manual testing for the help box:
+
+![]()
+
+The responsiveness of the help page 
+
+![]()
+
+- Desktop 
+
+![]()
+
+- Tablet
+
+![]()
+
+- Phone
+
+![]()
+
+Once you fill the form, it will bring you to the thank you page:
+
+- Desktop 
+
+![]()
+
+- Tablet
+
+![]()
+
+- Phone
+
+![]()
+
+## Restart button and exit icon
+
+* Manual testing of the restart button and the exit icon, when they have been clicked on all boxes:
+
+![]()
