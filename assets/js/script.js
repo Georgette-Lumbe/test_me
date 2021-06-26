@@ -36,7 +36,12 @@ function getNewQuestion(){
    
     // set options and get the length of options
     const optionLength = currentQuestion.options.length
-    console.log(currentQuestion.options);
+
+    //push options into accessibleOptions array
+    for(let i = 0; i < optionLength; i++){
+        accessibleOptions.push(i)
+    }
+   
     
     questionCounter++
 }
