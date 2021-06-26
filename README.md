@@ -77,7 +77,7 @@ This is the second of five milestone projects that the developer is required to 
 * I would like to leave the quiz whenever I want
 * I would like to have a very clear feedback when I finish the quiz
 * I would like to be able to ask for help 
-* I would like to easily navigate through the TstME' social media links to be familiar with the its community
+* I would like to easily navigate through the TestME' social media links to be familiar with the its community
 
 ### As an returning user:
 
@@ -344,6 +344,8 @@ Wireframes moch-up were created in a balsamiq workspace with providing a respons
 
     * Features: implement the PWA to allow users to install the application on their own devices.
     * Reason for not featuring in this release: the web developer needs more knowledge on this subject.
+
+4. Competition within users on Facebook
 
 # Testing
 
