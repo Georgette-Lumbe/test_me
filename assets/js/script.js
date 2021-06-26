@@ -43,9 +43,19 @@ function getNewQuestion(){
     }
    // create options in html
    for(let i = 0; i < optionLength; i++){
+
+       // get random option
+       const optionIndex = accessibleOptions[Math.floor(Math.random() *accessibleOptions.length)];
+
+       // get the position the position of optionIndex from accessibleOptions
+       const indexTwo = accessibleOptions.indexOf(optionIndex);
+
+       // remove the optionIndex from the accessibleOptions, so that the option doesn't repeat
+       accessibleOptions.splice(indexTwo,1);
+       console.log(optionIndex)
        const option = document.createElement("div");
-       option.innerHTML = currentQuestion.options[i];
-       option.id = i;
+       option.innerHTML = currentQuestion.options[optionIndex];
+       option.id = optionIndex;
        option.className = "option";
        optionList.appendChild(option)
    }
