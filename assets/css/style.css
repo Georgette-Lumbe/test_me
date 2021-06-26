@@ -131,6 +131,19 @@ header {
     margin-bottom: 10px;
     cursor: pointer;
     text-transform: capitalize;
+
+    /* Put an animation to options /help from tutorial*/
+    opacity: 0.5;
+    animation:  fadeIn 0.3s ease forwards; 
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .quizBox .btn {

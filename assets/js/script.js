@@ -41,6 +41,9 @@ function getNewQuestion(){
     for(let i = 0; i < optionLength; i++){
         accessibleOptions.push(i)
     }
+
+    let animationDelay = 0.10;
+
    // create options in html
    for(let i = 0; i < optionLength; i++){
 
@@ -52,10 +55,11 @@ function getNewQuestion(){
 
        // remove the optionIndex from the accessibleOptions, so that the option doesn't repeat
        accessibleOptions.splice(indexTwo,1);
-       console.log(optionIndex)
        const option = document.createElement("div");
        option.innerHTML = currentQuestion.options[optionIndex];
        option.id = optionIndex;
+       option.style.animationDelay = animationDelay + 's';
+       animationDelay = animationDelay + 0.10;
        option.className = "option";
        optionList.appendChild(option)
    }
