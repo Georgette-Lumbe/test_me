@@ -371,3 +371,49 @@ The developper met some issues during the development of the website, below are 
 7. [Coolors](https://coolors.co/) was used for colour inspiration and pallet
 8. [Favicon](https://favicon.io/favicon-converter/) was used to convert an image to a favicon for the Love Vegetables.
 9. 
+
+# Deployment
+
+This project was committed to git and push to Github using the workspace terminal.
+
+## Deploying on GitHub pages
+
+To deploy this website to GitHub repository, the developer followed these steps:
+
+1. Log into [GitHub](https://github.com/)
+2. Locate the GitHub Repository
+3. Select settings from the menu at the top of the repository
+4. Scroll down the settings page to the *GitHub Pages* section
+5. Click on *check it out here!*
+6. Under *source* click the drop-menu *None* and select *Master Branch*
+7. Above selection, the page will automatically refresh and show that the website was deployed successfully
+8. Refresh  again GitHub, the deployed link will be on the *GitHub Pages*
+
+## Forking the Repository
+
+To make a copy of the original repository on our GitHub account, we need to fork the GitHub Repository. To view or/and make changes withount affecting the original repository, we need to foloow these steps:
+
+1. Log into [GitHub](https://github.com/)
+2. Locate the GitHub Repository
+3. On the right side of the page, at the top of the repository, select *Fork*
+4. A copy of the original repository will be in your GitHub account
+
+## Creating a clone
+
+More steps need to be follow for running project locally:
+
+1. Install the GitPod Browser extension for chrome
+2. After installation, restart the browser
+3. Log into GitHub Repository
+4. Click the green *GitPod* button. This will set of a new GitPod workspace to be created from the code in GitHub where you can work locally.
+
+These are steps to run this project within a local IDE:
+
+1. Log into [GitHub](https://github.com/)
+2. Local the GitHub Repository
+3. Under the repository name, click *clone or download* 
+4. In the Clone with https section, copy the URL for the repository
+5. In your local IDE open the terminal
+6. Change the current working directory to the location where you want the cloned directory to be made
+7. Type *git clone*, and then paste the URL you copied in the step 4
+8. Press Enter. Your local clone will be created.
