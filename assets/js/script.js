@@ -198,3 +198,7 @@ function startQuiz() {
     // create indicator of answers
     answerIndicator();
 }
+
+window.onload = function (){
+    infoBox.querySelector('.totalQuestion').innerHTML = quiz.length;
+}

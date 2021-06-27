@@ -26,5 +26,17 @@ let quiz = [
         options: ['Salt', 'Butter', 'Sugar'],
         answer: 2
     },
+    {
+        question: 'Saudi Arabia is the biggest producer of?',
+        options: ['Coffee', 'Coal', 'Oil'],
+        answer: 0
+    },
+    {
+        question: 'What native country is Brazil?',
+        options: ['South American', 'Coal', 'Oil'],
+        answer: 1
+    },
+
+
 
 ]
