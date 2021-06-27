@@ -7,7 +7,7 @@ body {
     margin: 0;
     color: #394648;
     background-color: #69995d;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-weight: 400;
 }
 
@@ -21,7 +21,8 @@ body {
 h1,
 h2,
 h3 {
-    font-family: Balsamiq Sans;
+    font-family: Balsamiq;
+    letter-spacing: 2px;
 }
 
 /*Header and logo*/
@@ -44,7 +45,7 @@ header {
 
 .logo i {
     color: #69995d;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 /*Customise the info box*/
@@ -95,12 +96,19 @@ header {
     color: #f8e9e9;
     border-radius: 5px;
     border: none;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 16px;
     cursor: pointer;
 }
 
 /*Quiz box*/
+
+/* style the exit icon*/
+.icon {
+    color: #394648;
+    font-size: 14px;
+    float: right;
+}
 
 .questionNumber,
 .questionText,
@@ -246,7 +254,7 @@ header {
     color: #69995d;
 }
 
-.feedbackBox i {
+.feedbackBox h1 i {
     color: #69995d;
     font-size: 30px;
 }
