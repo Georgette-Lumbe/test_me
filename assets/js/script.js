@@ -28,7 +28,6 @@ function setAccessibleQuestions(){
 
 // set question number, question and options
 function getNewQuestion(){
-    console.log(accessibleQuestions);
 
     // set question number
     questionNumber.innerHTML = "Question " + (questionCounter + 1) + " of " + limitQuestion;
