@@ -110,13 +110,13 @@ function getFeedback(element){
     unavailableOptions();
 }
 
-// make all the options unclickable once the user select an option, the user can not change the option again
+// disable all other options when user selects one option, the user can not change the option again
 function unavailableOptions() {
     const optionLength = optionList.children.length;
     for(let i = 0; i < optionLength; i++){
         optionList.children[i].classList.add("already_selected");
     }
-
+    
 }
 
 // set the answer indicator
