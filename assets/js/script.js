@@ -4,11 +4,16 @@ const questionNumber =  document.querySelector('.questionNumber');
 const questionText =  document.querySelector('.questionText');
 const optionList =  document.querySelector('.optionList');
 const answersIndicatorBoxes = document.querySelector('.indicator');
+const infoBox = document.querySelector('.infoBox');
+const quizBox = document.querySelector('.quizBox');
+const feedbackBox = document.querySelector('.feedbackBox');
 
 let questionCounter = 0;
 let currentQuestion;
 let accessibleQuestions = [];
 let accessibleOptions = [];
+let correctAnswers = 0;
+let attempt = 0;
 
 // push the questions into accessibleQuestions Array
 function setAccessibleQuestions(){
@@ -81,6 +86,8 @@ function getFeedback(element){
 
         // add indicator to correct answer
         updateAnswerIndicator('correct');
+        correctAnswers++;
+        console.log('correct:' + correctAnswers)
     }
     else {
         // set the red color to the incorrect option
@@ -90,6 +97,7 @@ function getFeedback(element){
         updateAnswerIndicator('incorrect');
     }
 
+    attempt++;
     unavailableOptions();
 }
 
@@ -103,6 +111,7 @@ function unavailableOptions() {
 }
 
 function answerIndicator() {
+    answersIndicatorBoxes.innerHTML = '';
     const totalQuestion = quiz.length;
     for(let i = 0; i < totalQuestion; i++){
         const indicator = document.createElement('div');
@@ -110,6 +119,7 @@ function answerIndicator() {
     }
 }
 
+// add markType in the console area
 function updateAnswerIndicator(markType){
     answersIndicatorBoxes.children[questionCounter-1].classList.add(markType)
 }
@@ -117,9 +127,16 @@ function updateAnswerIndicator(markType){
 function next (){
     if(questionCounter === quiz.length){
         console.log("questions are over")
+        quizOver();
     } else {
         getNewQuestion();
     }
+}
+
+// hide quiz box and show feedback box
+function quizOver(){
+    quizBox.classList.add('hide');
+    feedbackBox.classList.remove('hide');
 }
 
 window.onload = function(){
