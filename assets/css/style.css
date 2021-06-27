@@ -83,8 +83,7 @@ header {
     display: none;
 }
 
-.infoBox h3 {
-    font-size: 20px;
+.infoBox h2 {
     font-weight: 500;
     margin-bottom: 15px;
     line-height: 25px;
@@ -101,6 +100,7 @@ header {
 
 .infoBox .btn {
     margin-top: 20px;
+    float: right;
 }
 
 /*Style the start quiz button*/
@@ -164,7 +164,7 @@ header {
     line-height: 25px;
 }
 
-.time_text {
+.timeText {
     font-weight: 400;
     font-size: 17px;
 
@@ -172,7 +172,7 @@ header {
     user-select: none;
 }
 
-.timer_seconds {
+.timerSeconds {
     font-size: 17px;
     font-weight: 600;
     background: #CBAC88 ;
@@ -275,6 +275,11 @@ header {
 .optionList .option.incorrect {
     color: #f8e9e9;
     border: 2px solid rgb(241, 74, 74);
+}
+
+/*Disable options*/
+.option.disabled {
+    pointer-events: none;
 }
 
 .quizBox .btn {

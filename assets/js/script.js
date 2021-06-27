@@ -6,9 +6,12 @@ const optionList =  document.querySelector('.optionList');
 const answersIndicatorBoxes = document.querySelector('.indicator');
 const infoBox = document.querySelector('.infoBox');
 const quizBox = document.querySelector('.quizBox');
+const timeOff = document.querySelector('.timeText');
+const timeCount = document.querySelector('.timerSeconds');
 const feedbackBox = document.querySelector('.feedbackBox');
 const exitIcon = quizBox.querySelector('.quizIcon');
 const leaveIcon = feedbackBox.querySelector('.feedbackIcon');
+const nextButton = document.querySelector('.next_btn');
 
 const limitQuestion = 7;
 let questionCounter = 0;
@@ -116,7 +119,7 @@ function unavailableOptions() {
     for(let i = 0; i < optionLength; i++){
         optionList.children[i].classList.add("already_selected");
     }
-    
+
 }
 
 // set the answer indicator
