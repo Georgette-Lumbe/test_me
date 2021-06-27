@@ -93,6 +93,7 @@ function getNewQuestion(){
        option.setAttribute('onclick', 'getFeedback(this)');
    }
     questionCounter++
+    nextButton.style.display = 'none';
 }
 
 // get the feedback of current attempt question
@@ -127,7 +128,7 @@ function unavailableOptions() {
     for(let i = 0; i < optionLength; i++){
         optionList.children[i].classList.add("already_selected");
     }
-
+    nextButton.style.display = 'block';
 }
 
 // set the answer indicator
@@ -179,6 +180,7 @@ function restartQuiz() {
     correctAnswers = 0;
     attempt = 0;
     accessibleQuestions = [];
+    nextButton.style.display = 'none';
 }
 
 // if the play again is clicked, the feedback box will be hide and show the quiz box again
@@ -188,6 +190,7 @@ function playAgain() {
 
     restartQuiz();
     startQuiz();
+    nextButton.style.display = 'none';
 }
 
 //if the quiz box exit icon is clicked, the site will reload
@@ -215,6 +218,8 @@ function startQuiz() {
 
     // create indicator of answers
     answerIndicator();
+
+    nextButton.style.display = 'none';
 }
 
 window.onload = function (){
