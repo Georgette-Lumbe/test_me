@@ -244,7 +244,7 @@ Wireframes moch-up were created in a balsamiq workspace with providing a respons
     * These colours are used in a specific and complementary way, maintaining a good level of contrast.
     * There is a layer of red for when the user will choose a wrong answer and and gray to draw lines .
 
-<img src="" width="100%">
+<img src="assets/docs/screenshots/colours.PNG" width="100%">
 
 3. Icons
 
@@ -349,7 +349,7 @@ Wireframes moch-up were created in a balsamiq workspace with providing a respons
 
 # Testing
 
-Testing information can be found in a separate [testing file]().
+Testing information can be found in a separate [testing file](https://github.com/Georgette-Lumbe/test_me/blob/master/TESTING.md).
 
 # Issues and Bugs
 

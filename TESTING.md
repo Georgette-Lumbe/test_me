@@ -1,6 +1,6 @@
 # TestME - Testing
 
-[Main README.md file]()
+[Main README.md file](https://github.com/Georgette-Lumbe/test_me/blob/master/README.md)
 
 [View live project]()
 

@@ -39,7 +39,12 @@ header {
 .logo a {
     margin: 15px;
     text-decoration: none;
-    color: #69995d;;
+    color: #69995d;
+}
+
+.logo i {
+    color: #69995d;
+    font-size: 30px;
 }
 
 /*Customise the info box*/
@@ -232,6 +237,11 @@ header {
     font-size: 36px;
     line-height: 42px;
     color: #69995d;
+}
+
+.feedbackBox i {
+    color: #69995d;
+    font-size: 30px;
 }
 
 .feedbackBox table {
