@@ -7,6 +7,8 @@ const answersIndicatorBoxes = document.querySelector('.indicator');
 const infoBox = document.querySelector('.infoBox');
 const quizBox = document.querySelector('.quizBox');
 const feedbackBox = document.querySelector('.feedbackBox');
+const exitIcon = quizBox.querySelector('.quizIcon');
+const leaveIcon = feedbackBox.querySelector('.feedbackIcon');
 
 let questionCounter = 0;
 let currentQuestion;
@@ -110,6 +112,7 @@ function unavailableOptions() {
 
 }
 
+// set the answer indicator
 function answerIndicator() {
     answersIndicatorBoxes.innerHTML = '';
     const totalQuestion = quiz.length;
@@ -167,6 +170,15 @@ function playAgain() {
 
     restartQuiz();
     startQuiz();
+}
+
+//if the exit icon is clicked
+exitIcon.onclick = ()=> {
+    window.location.reload();
+}
+
+leaveIcon.onclick = ()=> {
+    window.location.reload();
 }
 
 // Start Quiz
