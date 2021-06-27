@@ -48,6 +48,38 @@ header {
     font-size: 25px;
 }
 
+label {
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    right: 20px;
+    top: 20px;
+    border-radius: 20px;
+    border: 2px solid;
+}
+
+label::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    left: 1px;
+    top: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: black;
+    transition: 0.4s;
+}
+
+label.active::before {
+    left: 20px;
+    background-color: #69995d;
+}
+
+body.night {
+    background-color: #394648;
+}
+
 /*Customise the info box*/
 .customBox {
     max-width: 700px;
@@ -127,6 +159,7 @@ header {
     float: right;
 }
 
+.questionNumber,
 .questionText,
 .optionList,
 .indicator {

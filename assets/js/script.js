@@ -13,6 +13,14 @@ const exitIcon = quizBox.querySelector('.quizIcon');
 const leaveIcon = feedbackBox.querySelector('.feedbackIcon');
 const nextButton = document.querySelector('.next_btn');
 
+// active dark mode when the label is clicked
+let content = document.getElementsByTagName('body')[0];
+let darkMode = document.querySelector('.darkChange');
+darkMode.addEventListener('click', function(){
+    darkMode.classList.toggle('active');
+    content.classList.toggle('night');
+})
+
 const limitQuestion = 7;
 let questionCounter = 0;
 let currentQuestion;
