@@ -137,6 +137,20 @@ function next (){
 function quizOver(){
     quizBox.classList.add('hide');
     feedbackBox.classList.remove('hide');
+    quizFeedback();
+}
+
+// get the quiz feedback
+function quizFeedback() {
+    feedbackBox.querySelector('.totalQuestion').innerHTML = quiz.length;
+    feedbackBox.querySelector('.totalAttempt').innerHTML =attempt;    
+    feedbackBox.querySelector('.totalCorrect').innerHTML = correctAnswers;
+    feedbackBox.querySelector('.totalWrong').innerHTML = attempt - correctAnswers;
+
+    // calculate the percentage by divide correct answers to quiz length and multiply by 100
+    const percentage = (correctAnswers/quiz.length)*100;
+    feedbackBox.querySelector('.percentage').innerHTML = percentage.toFixed() + '%';
+    feedbackBox.querySelector('.totalScore').innerHTML = correctAnswers +' / ' + quiz.length;
 }
 
 window.onload = function(){
