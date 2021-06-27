@@ -55,6 +55,7 @@ header {
     margin: 40px auto;
     padding: 10px 30px;
     border-radius: 10px;
+    overflow: hidden;
 
     /* Put an animation to all boxes/help from tutorial*/
     animation: fadeInRight 2s ease;
@@ -125,12 +126,6 @@ header {
     cursor: pointer;
     float: right;
 }
-
-/*.quizTop {
-    border-bottom: 1px solid gray;
-    padding-bottom: 10px;
-    line-height: 25px;
-}*/
 
 .questionText,
 .optionList,
@@ -366,6 +361,33 @@ header {
     color: #69995d;
 }
 
+/* footer */
+
+#social_media {
+    width: fit-content;
+    margin: auto;
+}
+
+#social_media ul {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#social_media i {
+    font-size: 200%;
+    color:#f8e9e9;;
+}
+
+#social_media li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+#social_media i:hover {
+    color: #394648 ;
+    cursor: pointer;
+}
+
 /* media queries*/
 
 /*Small devices (phones, 767px and down) */
@@ -375,7 +397,7 @@ header {
         margin-bottom: 15px;
     }
 
-    body {
+    #home {
         padding: 15px;
     }
 }
