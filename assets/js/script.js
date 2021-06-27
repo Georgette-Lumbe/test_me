@@ -148,7 +148,7 @@ function quizFeedback() {
     feedbackBox.querySelector('.totalQuestion').innerHTML = quiz.length;
     feedbackBox.querySelector('.totalAttempt').innerHTML =attempt;    
     feedbackBox.querySelector('.totalCorrect').innerHTML = correctAnswers;
-    feedbackBox.querySelector('.totalWrong').innerHTML = attempt - correctAnswers;
+    feedbackBox.querySelector('.totalIncorrect').innerHTML = attempt - correctAnswers;
 
     // calculate the percentage by divide correct answers to quiz length and multiply by 100
     const percentage = (correctAnswers/quiz.length)*100;
@@ -172,11 +172,12 @@ function playAgain() {
     startQuiz();
 }
 
-//if the exit icon is clicked
+//if the quiz box exit icon is clicked, the site will reload
 exitIcon.onclick = ()=> {
     window.location.reload();
 }
 
+//if the feedback box exit icon is clicked, the site will reload
 leaveIcon.onclick = ()=> {
     window.location.reload();
 }

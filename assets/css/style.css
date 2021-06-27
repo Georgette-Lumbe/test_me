@@ -55,6 +55,20 @@ header {
     margin: 40px auto;
     padding: 30px;
     border-radius: 10px;
+
+    /* Put an animation to all boxes/help from tutorial*/
+    animation: fadeInRight 2s ease;
+}
+
+@keyframes fadeInRight {
+    0% {
+        transform: translate(40px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate();
+        opacity: 1;
+    }
 }
 
 /*Help from Youtube Tutorial*/
