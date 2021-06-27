@@ -33,7 +33,7 @@ let quiz = [
     },
     {
         question: 'What native country is Brazil?',
-        options: ['South American', 'Coal', 'Oil'],
+        options: ['South American', 'North American', 'West American'],
         answer: 1
     },
 

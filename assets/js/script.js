@@ -89,7 +89,6 @@ function getFeedback(element){
         // add indicator to correct answer
         updateAnswerIndicator('correct');
         correctAnswers++;
-        console.log('correct:' + correctAnswers)
     }
     else {
         // set the red color to the incorrect option
@@ -129,7 +128,6 @@ function updateAnswerIndicator(markType){
 
 function next (){
     if(questionCounter === quiz.length){
-        console.log("questions are over")
         quizOver();
     } else {
         getNewQuestion();

@@ -303,3 +303,17 @@ header {
     color: #f8e9e9;
     font-size: 20px;
 }
+
+/* media queries*/
+
+/*Small devices (phones, 767px and down) */
+
+@media(max-width: 767px){
+    .feedbackBox .btn {
+        margin-bottom: 15px;
+    }
+
+    body {
+        padding: 15px;
+    }
+}
