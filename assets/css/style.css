@@ -106,7 +106,7 @@ header {
 .questionText,
 .optionList,
 .next_btn,
-.answersIndicator {
+.indicator {
     width: 100%;
     float: left;
 }
@@ -210,10 +210,10 @@ header {
     margin: 15px 0;
 }
 
-.answersIndicator {
+.indicator {
     border-top: 1px solid gray;
 }
-.answersIndicator div{
+.indicator div{
     height: 40px;
     width: 40px;
     display: inline-block;
@@ -221,6 +221,13 @@ header {
     border-radius: 50%;
     margin-right: 3px;
     margin-top: 15px;
+}
+
+.indicator div.correct{
+    background-color: rgb(162, 221, 162);
+}
+.indicator div.incorrect{
+    background-color: rgb(185, 91, 91);
 }
 
 /*Style the feedback box*/

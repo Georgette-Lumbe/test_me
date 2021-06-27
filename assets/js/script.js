@@ -3,6 +3,7 @@
 const questionNumber =  document.querySelector('.questionNumber');
 const questionText =  document.querySelector('.questionText');
 const optionList =  document.querySelector('.optionList');
+const answersIndicatorBoxes = document.querySelector('.indicator');
 
 let questionCounter = 0;
 let currentQuestion;
@@ -77,10 +78,16 @@ function getFeedback(element){
 
         // set the green color to the correct option
         element.classList.add('correct');
+
+        // add indicator to correct answer
+        updateAnswerIndicator('correct');
     }
     else {
         // set the red color to the incorrect option
         element.classList.add('incorrect');
+
+        // add indicator to incorrect answer
+        updateAnswerIndicator('incorrect');
     }
 
     unavailableOptions();
@@ -93,6 +100,18 @@ function unavailableOptions() {
         optionList.children[i].classList.add("already_selected");
     }
 
+}
+
+function answerIndicator() {
+    const totalQuestion = quiz.length;
+    for(let i = 0; i < totalQuestion; i++){
+        const indicator = document.createElement('div');
+        answersIndicatorBoxes.appendChild(indicator)
+    }
+}
+
+function updateAnswerIndicator(markType){
+    answersIndicatorBoxes.children[questionCounter-1].classList.add(markType)
 }
 
 function next (){
@@ -108,6 +127,9 @@ window.onload = function(){
     // set all questions in accessibleQuestions array first
     setAccessibleQuestions();
 
-    // call getNewQuestion second
+    // call getNewQuestion function secondly
     getNewQuestion();
+
+    // create indicator of answers
+    answerIndicator();
 }
