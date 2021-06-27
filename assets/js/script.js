@@ -10,6 +10,7 @@ const feedbackBox = document.querySelector('.feedbackBox');
 const exitIcon = quizBox.querySelector('.quizIcon');
 const leaveIcon = feedbackBox.querySelector('.feedbackIcon');
 
+const limitQuestion = 7;
 let questionCounter = 0;
 let currentQuestion;
 let accessibleQuestions = [];
@@ -27,9 +28,10 @@ function setAccessibleQuestions(){
 
 // set question number, question and options
 function getNewQuestion(){
+    console.log(accessibleQuestions);
 
     // set question number
-    questionNumber.innerHTML = "Question " + (questionCounter + 1) + " of " + quiz.length;
+    questionNumber.innerHTML = "Question " + (questionCounter + 1) + " of " + limitQuestion;
 
     // set question text and get random question
     const questionIndex = accessibleQuestions[Math.floor(Math.random() * accessibleQuestions.length)]
@@ -121,7 +123,7 @@ function unavailableOptions() {
 // set the answer indicator
 function answerIndicator() {
     answersIndicatorBoxes.innerHTML = '';
-    const totalQuestion = quiz.length;
+    const totalQuestion = limitQuestion;
     for(let i = 0; i < totalQuestion; i++){
         const indicator = document.createElement('div');
         answersIndicatorBoxes.appendChild(indicator)
@@ -134,7 +136,7 @@ function updateAnswerIndicator(markType){
 }
 
 function next (){
-    if(questionCounter === quiz.length){
+    if(questionCounter === limitQuestion){
         quizOver();
     } else {
         getNewQuestion();
@@ -150,15 +152,15 @@ function quizOver(){
 
 // get the quiz feedback
 function quizFeedback() {
-    feedbackBox.querySelector('.totalQuestion').innerHTML = quiz.length;
+    feedbackBox.querySelector('.totalQuestion').innerHTML = limitQuestion;
     feedbackBox.querySelector('.totalAttempt').innerHTML =attempt;    
     feedbackBox.querySelector('.totalCorrect').innerHTML = correctAnswers;
     feedbackBox.querySelector('.totalIncorrect').innerHTML = attempt - correctAnswers;
 
     // calculate the percentage by divide correct answers to quiz length and multiply by 100
-    const percentage = (correctAnswers/quiz.length)*100;
+    const percentage = (correctAnswers/limitQuestion)*100;
     feedbackBox.querySelector('.percentage').innerHTML = percentage.toFixed() + '%';
-    feedbackBox.querySelector('.totalScore').innerHTML = correctAnswers +' / ' + quiz.length;
+    feedbackBox.querySelector('.totalScore').innerHTML = correctAnswers +' / ' + limitQuestion;
 }
 
 // restart the quiz
@@ -166,6 +168,7 @@ function restartQuiz() {
     questionCounter = 0;
     correctAnswers = 0;
     attempt = 0;
+    accessibleQuestions = [];
 }
 
 // if the play again is clicked, the feedback box will be hide and show the quiz box again
@@ -205,5 +208,5 @@ function startQuiz() {
 }
 
 window.onload = function (){
-    infoBox.querySelector('.totalQuestion').innerHTML = quiz.length;
+    infoBox.querySelector('.totalQuestion').innerHTML = limitQuestion;
 }
