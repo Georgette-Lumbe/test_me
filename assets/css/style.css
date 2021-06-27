@@ -269,3 +269,13 @@ header {
 .feedbackBox .btn {
     margin-right: 20px;
 }
+
+.btn a {
+    text-decoration: none;
+    color: #f8e9e9;
+}
+
+.btn a i {
+    color: #f8e9e9;
+    font-size: 20px;
+}
