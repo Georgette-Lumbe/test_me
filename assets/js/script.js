@@ -153,6 +153,21 @@ function quizFeedback() {
     feedbackBox.querySelector('.totalScore').innerHTML = correctAnswers +' / ' + quiz.length;
 }
 
+// restart the quiz
+function restartQuiz() {
+    questionCounter = 0;
+    correctAnswers = 0;
+    attempt = 0;
+}
+
+// if the play again is clicked, the feedback box will be hide and show the quiz box again
+function playAgain() {
+    feedbackBox.classList.add('hide');
+    quizBox.classList.remove('hide');
+
+    restartQuiz();
+}
+
 window.onload = function(){
 
     // set all questions in accessibleQuestions array first
