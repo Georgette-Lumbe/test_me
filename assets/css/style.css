@@ -252,8 +252,9 @@ body.night {
 }
 
 .optionList .option.correct {
-    color: #f8e9e9;
+    color: #69995d;
     border: 2px solid #69995d;
+    background-color: #bfd4b9;
 }
 
 /* set the red color to the incorrect answer*/
@@ -264,7 +265,7 @@ body.night {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgb(185, 91, 91);
+    background-color: rgba(236, 204, 204, 0.986);
     z-index: -1;
 
     /* put an animation to incorrect answer*/
@@ -272,8 +273,9 @@ body.night {
 }
 
 .optionList .option.incorrect {
-    color: #f8e9e9;
-    border: 2px solid rgb(241, 74, 74);
+    color: red;
+    border: 2px solid red;
+    background-color: rgba(236, 204, 204, 0.986);
 }
 
 /*Disable options*/
@@ -304,10 +306,10 @@ body.night {
 }
 
 .indicator div.correct{
-    background-color: rgb(162, 221, 162);
+    background-color: #69995d;
 }
 .indicator div.incorrect{
-    background-color: rgb(185, 91, 91);
+    background-color: red;
 }
 
 /*Style the feedback box*/
