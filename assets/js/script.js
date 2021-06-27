@@ -166,9 +166,15 @@ function playAgain() {
     quizBox.classList.remove('hide');
 
     restartQuiz();
+    startQuiz();
 }
 
-window.onload = function(){
+// Start Quiz
+function startQuiz() {
+
+    // hide info box and show quiz box
+    infoBox.classList.add('hide');
+    quizBox.classList.remove('hide');
 
     // set all questions in accessibleQuestions array first
     setAccessibleQuestions();
