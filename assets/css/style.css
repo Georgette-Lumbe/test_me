@@ -129,7 +129,6 @@ header {
 .questionNumber,
 .questionText,
 .optionList,
-.next_btn,
 .indicator {
     width: 100%;
     float: left;
@@ -181,6 +180,13 @@ header {
     100% {
         opacity: 1;
     }
+}
+
+.option:hover,
+.btn:hover {
+    color: #69995d;
+    background-color: #f8e9e9;
+    border: 2px solid #69995d;
 }
 
 .optionList .option.already_selected {
@@ -243,6 +249,11 @@ header {
 .indicator {
     border-top: 1px solid gray;
 }
+
+.next_btn {
+    float: right;
+}
+
 .indicator div{
     height: 40px;
     width: 40px;
@@ -302,12 +313,17 @@ header {
 
 .btn a {
     text-decoration: none;
-    color: #f8e9e9;
+    color: #edb6a3;
 }
 
 .btn a i {
-    color: #f8e9e9;
+    color: #edb6a3;
     font-size: 20px;
+}
+
+.btn a:hover,
+.btn a i:hover {
+    color: #69995d;
 }
 
 /* media queries*/
