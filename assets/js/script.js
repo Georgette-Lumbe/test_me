@@ -42,7 +42,7 @@ function getNewQuestion(){
     // remove the questionIndex from the accessibleQuestion array, so that the question doesn't repeat
     accessibleQuestions.splice(indexOne,1);
 
-    // show question image if image property exists
+    // show question image if img property exists
     if(currentQuestion.hasOwnProperty('img')) {
         const img = document.createElement('img');
         img.src = currentQuestion.img;

@@ -151,6 +151,13 @@ header {
     padding: 20px 0;
 }
 
+/*Style the image*/
+.questionText img {
+    margin-top: 15px;
+    display: block;
+    max-width: 100%;
+}
+
 .optionList .option {
     padding: 13px 15px;
     line-height: 22px;
