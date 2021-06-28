@@ -89,10 +89,6 @@ body.night {
     color: #ffffff;
 }
 
-/*tbody.night {
-    color: #ffffff;
-}*/
-
 /* CUSTOMISE ALL BOXES*/
 .customBox {
     max-width: 700px;
@@ -395,29 +391,10 @@ body.night {
 
 /* FOOTER */
 
-#social_media {
+#copyright{
     width: fit-content;
     margin: auto;
-}
-
-#social_media ul {
-    display: flex;
-    margin-bottom: 10px;
-}
-
-#social_media i {
-    font-size: 200%;
-    color:#f8e9e9;;
-}
-
-#social_media li {
-    list-style-type: none;
-    padding: 20px;
-}
-
-#social_media i:hover {
-    color: #394648 ;
-    cursor: pointer;
+    color: #0e6cfc;
 }
 
 /* media queries*/
