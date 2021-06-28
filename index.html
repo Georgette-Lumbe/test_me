@@ -1,47 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!--==========SEO Data==========-->
     <meta name="description" content="A fun and interactive quiz to test users' knowledge">
     <meta name="keywords" content="quiz, game, general culture, random quiz, questions, culture quiz, online quiz,">
-
     <!--==========Font Awesome CDN import to allow usage of icons==========-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
-    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-     
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <!--==========Favicon==========-->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-
     <!--==========Link to Style CSS file==========-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>TestME</title>
 </head>
-<body>
 
+<body>
     <!--==========HEADER==========-->
     <header>
-
         <!--==========Logo==========-->
         <div class="logo">
             <h1><a href="index.html">TestME</a></h1>
         </div>
-
         <!--==========View mode: dark or light=========-->
         <div>
             <label class="darkChange"></label>
         </div>
     </header>
-
     <!--==========MAIN SECTION==========-->
     <section id="home">
-
         <!--==========INFO BOX==========-->
         <div class="infoBox customBox">
-            
             <!--==========Some Rules==========-->
             <h2>Some Rules:</h2>
             <div>
@@ -52,54 +44,44 @@
                 <p>5. You can not pass to another question since you did not choose an option</p>
                 <p>6. You can share your feedback with your friends and our community on Facebook</p>
             </div>
-
             <!--==========Start Quiz Button==========-->
             <button type="button" class="btn" onclick="startQuiz()">Start Quiz</button>
         </div>
-
         <!--==========QUIZ BOX==========-->
         <div class="quizBox customBox hide">
-
             <!--==========Exit icon==========-->
             <div class="quizIcon"><i class="fas fa-times"></i></div>
-           
             <!--==========QUESTION NUMBER IS HIDDEN AND WILL BE DISPLAY IN JAVASCRIPT==========-->
             <div class="questionNumber">
                 <!--Question 1 out of 7-->
             </div>
-
             <!--==========QUESTIONS AND OPTIONS ARE HIDDEN AND WILL BE DISPLAY IN JAVASCRIPT==========-->
             <div class="questionText">
                 <!--Saudi Arabia is the biggest producer of?-->
             </div>
             <div class="optionList">
                 <!--<div class="option">Oil</div>
-                <div class="option">Coal</div>
-                <div class="option">Coffee</div>-->
+                  <div class="option">Coal</div>
+                  <div class="option">Coffee</div>-->
             </div>
-
             <!--==========Next Button==========-->
             <div class="next_btn">
                 <button type="button" class="btn" onclick="next()">Next</button>
             </div>
-
             <!--==========INDICATOR ANSWERS ARE HIDDEN AND WILL BE DISPLAY IN JAVASCRIPT==========-->
             <div class="indicator">
                 <!--<div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>-->
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>-->
             </div>
         </div>
-
-    <!--==========FEEDBACK BOX=========-->
+        <!--==========FEEDBACK BOX=========-->
         <div class="feedbackBox customBox hide">
-
             <!--==========Exit icon==========-->
             <div class="feedbackIcon"><i class="fas fa-times"></i></div>
-            <h1>Quiz Feedback <i class="fas fa-crown"></i></h1>
-
+            <h2>Quiz Feedback <i class="fas fa-crown"></i></h2>
             <!--==========Feedback Table==========-->
             <table>
                 <tr>
@@ -127,25 +109,25 @@
                     <td><span class="totalScore"></span></td>
                 </tr>
             </table>
-
             <!--==========Try again and share buttons==========-->
             <button type="button" class="btn" onclick="playAgain()">Play Again</button>
-            <button type="button" class="btn"><a href="https://facebook.com" target="_blank" rel="noopener" title="facebook"
-                aria-label="Visit our Facebook page (opens in the new tab">SHARE <i class="fab fa-facebook-square"></i></a></button>
+            <!--==========Button to redirect to an external link==========-->
+            <div class="btn">
+                <a href="https://facebook.com" target="_blank" rel="noopener" title="facebook"
+                    aria-label="Visit our Facebook page (opens in the new tab">SHARE <i
+                        class="fab fa-facebook-square"></i></a>
+            </div>
         </div>
     </section>
-
-    
-        <!--==========FOOTER==========-->
-        <footer>
-        
-            <!--==========Copyright==========-->
-            <div id="copyright">
-                <p>Copyright<i class="far fa-copyright"> 2021 GetteLumbe - All Rights Reserved</i></p>
-            </div>
-        </footer>
-    
+    <!--==========FOOTER==========-->
+    <footer>
+        <!--==========Copyright==========-->
+        <div id="copyright">
+            <p>Copyright<i class="far fa-copyright"> 2021 GetteLumbe - All Rights Reserved</i></p>
+        </div>
+    </footer>
     <script src="assets/js/questions.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
