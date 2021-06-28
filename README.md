@@ -212,7 +212,7 @@ Wireframes moch-up were created in a balsamiq workspace with providing a respons
     * These colours are used in a specific and complementary way, maintain a good level of contrast in both dark and light modes.
     * There is a layer of red for when the user will choose a wrong answer and and the layer of green when he will choose the correct answer.
 
-<img src="" width="100%">
+<img src="assets/docs/screenshots/colours.PNG" width="100%">
 
 3. Images and Icons
 
