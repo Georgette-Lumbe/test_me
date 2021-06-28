@@ -16,10 +16,16 @@ const nextButton = document.querySelector('.next_btn');
 
 // active dark mode when the label is clicked
 let content = document.getElementsByTagName('body')[0];
+let boxOne = document.querySelector('.infoBox');
+let boxTwo = document.querySelector('.quizBox');
+let boxThree = document.querySelector('.feedbackBox');
 let darkMode = document.querySelector('.darkChange');
 darkMode.addEventListener('click', function(){
     darkMode.classList.toggle('active');
     content.classList.toggle('night');
+    boxOne.classList.toggle('night');
+    boxTwo.classList.toggle('night');
+    boxThree.classList.toggle('night');
 })
 
 const limitQuestion = 7;
