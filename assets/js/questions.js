@@ -6,8 +6,8 @@ let quiz = [{
     answer: 0
 },
 {
-    question: 'What is the national language of Canada?',
-    options: ['English', 'Dutch', 'French'],
+    question: 'What is the official language of Canada?',
+    options: ['English', 'Dutch', 'spanish'],
     answer: 1
 },
 {
@@ -31,9 +31,9 @@ let quiz = [{
     answer: 2
 },
 {
-    question: 'What native country is Brazil?',
-    options: ['South American', 'North American', 'West American'],
-    answer: 1
+    question: 'Which of the following statements about carrots is true?',
+    options: ['They help you to see in the dark', 'They are made up of 96% water', 'None of the above'],
+    answer: 2
 },
 {
     question: 'How many triangles are there?',
@@ -85,9 +85,9 @@ let quiz = [{
     answer: 2
 },
 {
-    question: 'Which religion has a God specified for each Rain, Money, Children, and Love?',
-    options: ['Hinduism', 'Islam', 'Buddism'],
-    answer: 0
+    question: 'What is the most popular vegetable in the United States?',
+    options: ['Brussels Sprouts', 'Zucchini', 'Brocoli'],
+    answer: 2
 },
 {
     question: 'How many colors in the Rainbow?',
@@ -97,7 +97,7 @@ let quiz = [{
 {
     question: 'What does independence mean?',
     options: ['Permission','Goodwill', 'Freedom'],
-    answer: 1
+    answer: 2
 },
 {
     question: 'What is a tomato?',
@@ -105,23 +105,23 @@ let quiz = [{
     answer: 0
 },
 {
-    question: 'What is the capital of Democratic Republic of Congo?',
+    question: 'What is the capital of the Democratic Republic of Congo?',
     options: ['Brazzaville', 'Kinshasa', 'Abidjan'],
     answer: 1
 },
 {
     question: 'Ancient Egyptian Houses were built of what?',
     options: ['Mud', 'Wood', 'Brick'],
-    answer: 1
+    answer: 2
 },
 {
     question: 'What fabric is made of flax?',
     options: ['Cotton', 'Linen', 'Lawn'],
-    answer: 0
+    answer: 1
 },
 {
     question: 'What is the average weight of the human brain?',
-    options: ['14 kilos', '4 kilos', '14 grams'],
+    options: ['14 kg', '1.5 kg', '14 grams'],
     answer: 1
 },
 {
@@ -135,7 +135,7 @@ let quiz = [{
     answer: 2
 },
 {
-    question: 'Which is ingredient found in traditional garam masala spice?',
+    question: 'Which ingredient is found in traditional garam masala spice?',
     options: ['Salt', 'Red Chili Powder', 'Turmeric'],
     answer: 2
 },
