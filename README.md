@@ -236,13 +236,14 @@ Wireframes moch-up were created in a balsamiq workspace with providing a respons
     * The header contains a conventionally placed logo at the top left of the page (redirects the user to the home page in one click).
     * At the top right, there is a label for switching the mode of the site.
 
-<img src="" width="100%" height="25%">
+<img src="assets/docs/screenshots/header.PNG" width="100%">
 
 2. Landing Page 
 
     * The landing page includes a colour white or black as a background with a info box overlaid.
 
-<img src="" width="100%" height="50%">
+<img src="assets/docs/screenshots/landing_light.PNG" width="100%">
+<img src="assets/docs/screenshots/landing_dark.PNG" width="100%">
 
 3. Info Box
 
@@ -250,7 +251,7 @@ Wireframes moch-up were created in a balsamiq workspace with providing a respons
     * It also allows the user to start the quiz.
     * It is represented by a box of text (instructions) and the start quiz button at the bottom.
 
-<img src="" width="100%" height="50%">    
+<img src="assets/docs/screenshots/info_box.PNG" width="100%">  
 
 4. Quiz Box
 
@@ -265,7 +266,7 @@ Wireframes moch-up were created in a balsamiq workspace with providing a respons
     * It is represented by a box of text (quiz)
     * In fact, this section is hidden and to see it, just click on the start quiz button on the bottom in the info box.
 
-<img src="" width="100%" height="50%"> 
+<img src="assets/docs/screenshots/quiz_box.PNG" width="100%">  <img src="assets/docs/screenshots/next_button.PNG" width="100%">
 
 5. Feedback section
 
@@ -273,13 +274,13 @@ Wireframes moch-up were created in a balsamiq workspace with providing a respons
     * It is represented by a box of text (feedback).
     * In fact, this section is hidden and to see it, just finish the quiz.
 
-<img src="" width="100%" height="50%">
+<img src="assets/docs/screenshots/feedback_box.PNG" width="100%">
 
 8. Footer
 
     * This section shows the copyright and the name of the creator.
 
-<img src="" width="100%" height="50%">
+<img src="assets/docs/screenshots/footer.PNG" width="100%">
 
 [Go to top](#introduction "Goto introduction")
 
