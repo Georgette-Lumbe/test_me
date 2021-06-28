@@ -1,6 +1,6 @@
 # TESTME
 
-Responsiveness images
+<img src="assets/docs/testing/responsive.PNG" width="100%">
 
 [View the live project here](https://georgette-lumbe.github.io/test_me/)
 
