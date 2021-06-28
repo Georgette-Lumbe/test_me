@@ -49,7 +49,7 @@ Responsiveness images
 
 # INTRODUCTION
 
-TestME is a fun, interactive website that engages the user in a general knowledge quiz with questions on geography, math, history, cooking and more. It is a timed multiple choice game, with random questions and answers each time the user starts the quiz.  The user can see the quiz instructions before starting and after completing the quiz they can see their score and have the option to replay the quiz. 
+TestME is a fun, interactive website that engages the user in a general knowledge quiz with questions on geography, math, history, cooking, eye and brain test and more. It is a multiple choice game, with random questions and answers each time the user starts the quiz.  The user can see the quiz instructions before starting and after completing the quiz they can see their score and have the option to replay the quiz and share their score to friends and TestME community on Facebook.
 
 This is the second of five milestone projects that the developer is required to complete as part of their full web development course at the Code Institute. The main requirements were to create a responsive and interactive website using mainly *HTML5*, *CSS3* and *JavaScript*.
 
@@ -59,10 +59,12 @@ This is the second of five milestone projects that the developer is required to 
 
 ### The ideal user of this quiz
 
-* People who like general knowledge quiz
-* General culture lovers
-* People who like to exercise their brain
 * Quiz lovers
+* General culture lovers
+* People who like general knowledge quiz
+* People who like to exercise their brain
+* People who like to test their general knowledge
+* People who want to know new things
 * People who want a quick, simple and elegant quiz application.
 
 ## User Stories
@@ -70,14 +72,14 @@ This is the second of five milestone projects that the developer is required to 
 ### As a new user:
 
 * I would like to see where to start playing
-* I would like to navigate easiliy to the website
+* I would like to navigate easily to the website
+* I would like to set the dark mode when I play at night.
 * I would like to know the instructions before starting the quiz
-* I would like to know how much time and how many questions I have left
+* I would like to know how many questions I have left
 * I would like to see how many questions that I got wrong
 * I would like to leave the quiz whenever I want
 * I would like to have a very clear feedback when I finish the quiz
-* I would like to be able to ask for help 
-* I would like to easily navigate through the TestME' social media links to be familiar with the its community
+* I would like to be able to share my score with my friends and TestME community on Facebook
 
 ### As an returning user:
 
@@ -87,10 +89,9 @@ This is the second of five milestone projects that the developer is required to 
 ### As a website creator:
 
 * I want to make the quiz fun and interactive
-* I want to provide easy access to the user to ask questions
 * I want to ensure that there are enough questions
 * I want to make sure that the user enjoys the quiz
-* I want to provide a communication channel for new and returning customers (social links)
+* I want to provide an option for new and returning users to share their score on Facebook.
 
 ## Development Planes
 
@@ -103,15 +104,16 @@ The quiz will be focus on the following three categories of target audiences:
 1. Demographic
     * All ages
     * People in any field
+    * Learners
 
 2. Position
     * New users
     * Returning users
 
 3. Centre of interest
+    * Quiz lovers
     * People who enjoy general knowledge
     * People who like to test their knowledge
-    * Quiz lovers
     * People who want a quick, simple and elegant quiz application.
 
 The online quiz needs to facilitate the user to:
@@ -119,15 +121,13 @@ The online quiz needs to facilitate the user to:
 1. Access informations below:
     * The instructions before starting to play  
     * The feedback after finishing to play
-    * Social platforms
-
-2. Ask for help 
+    * A Share score option on Facebook
 
 The online quiz needs to facilitate the TestMe creator to:
 
 1. Maintain an online presence
 2. Get more players
-3. Receive questions from users in order to improve the quiz
+3. Get multiple users to react on the official TestME facebook account by sharing their score and discuss.
 
 ### Scope
 
@@ -139,15 +139,14 @@ There are two categories of requirements that were defined in order to clearly i
         - Where to start playing
         - The instructions
         - The feedback and score
-        - Where to ask for help
-        - Social media links
+        - Where to share score
+        - Where to set the dark mode
 
 2. Functionality Requirements
 
     * The user will be able to:
         - Navigate easily through the site to find information he wants
-        - Find links to external sites in order to stay connected with the TestME' community
-        - Contact the help centre directly through the site.
+        - Find link to external site in order to stay connected with the TestME' community and share score
 
 ### Structure
 
@@ -156,6 +155,7 @@ The structure of the application has been designed to provide a simple and seaml
 1. Header
 
     * The logo will serve as a link to the homepage
+    * The label will serve to set the dark mode
 
 2. The info box
 
@@ -165,7 +165,6 @@ The structure of the application has been designed to provide a simple and seaml
 3. Quiz box
 
     * A counter to show what question the user is on
-    * A counter that shows the user how much time he has left
     * Questions
     * Three options which only one is correct
     * Next button at the bottom which will pass to another question
@@ -173,25 +172,18 @@ The structure of the application has been designed to provide a simple and seaml
 
 4. Feedback box
 
-    * A table of result that will tell the user his score, percentage, attempt
+    * A table of result that will tell the user his attempt, percentage, score, how many questions he got wrong and correct
     * Two butons at the bottom:
         - Play again: will lead again the user directly to the quiz
-        - Need help: will lead the user to the help section so the user can fill the contact form and ask his question to the TestMe creator.
+        - Share: will lead the user to Facebook where he can share his score with friends
 
-5. Thank you message
-
-    * After submit the contact form, the user will see a thank you message 
-
-6. Exit icon
+5. Exit icon
 
     * On each box except the info box, there is an exit icon that can take the user back to the principal page
 
-7. Footer
+6. Footer
 
-    * Social media links
-        - Facebook
-        - Instagram
-        - YouTube
+    * A Copyright
 
 ### Skeleton
 
@@ -200,7 +192,7 @@ Wireframes moch-up were created in a balsamiq workspace with providing a respons
 * Desktop:
 
 <details>
-<summary>Info box, Quiz box, Feedback box, Help box and Thank you message box</summary>
+<summary>Info box, Quiz box, Feedback box</summary>
 <img src="" width="100%">
 <img src="" width="100%">
 <img src="" width="100%">
@@ -211,7 +203,7 @@ Wireframes moch-up were created in a balsamiq workspace with providing a respons
 * Tablet:
 
 <details>
-<summary>Info box, Quiz box, Feedback box, Help box and Thank you message box</summary>
+<summary>Info box, Quiz box, Feedback box</summary>
 <img src="" width="100%">
 <img src="" width="100%">
 <img src="" width="100%">
@@ -222,7 +214,7 @@ Wireframes moch-up were created in a balsamiq workspace with providing a respons
 * Phone:
 
 <details>
-<summary>Info box, Quiz box, Feedback box, Help box and Thank you message box</summary>
+<summary>Info box, Quiz box, Feedback box</summary>
 <img src="" width="100%">
 <img src="" width="100%">
 <img src="" width="100%">
@@ -234,20 +226,22 @@ Wireframes moch-up were created in a balsamiq workspace with providing a respons
 
 1. Typography
 
-    * A combination of [Balsamiq]() and [Montserrat](https://fonts.google.com/specimen/Montserrat?query=monts) fonts are used throughout the quiz, with Sans Sérif as a back-up font in case of import failure.
-    * For elements that need to be coloured, they have just been styled with the desired colour.
+    * At the beginning of this project, the developer had opted for a combination of fonts [Balsamiq](https://fonts.google.com/specimen/Balsamiq+Sans?query=bals) and [Montserrat](https://fonts.google.com/specimen/Montserrat?query=monts) but after deploying the site and testing on mobile and tablet, he decided to change fonts and opted this time for a combination of [Mate SC](https://fonts.google.com/specimen/Mate+SC?query=mate) and [Montserrat](https://fonts.google.com/specimen/Montserrat?query=monts) fonts which are used throughout the quiz, with Sans Sérif as a back-up font in case of import failure.
 
 2. Colour Scheme
 
-    * The colours used throughout the site for its main styling are shown below, this mix of colours comes from [coolors](https://coolors.co/) and they have been picked to keep within the design brief of maintaining a simplified pleasure.
+    * At the start of this project, the developer had opted for a rather complex colour combination, but after deploying the site and testing it on mobile and tablet, and seeing that he had to put it in dark mode, he decided to change the colours to something simple. 
 
-    * These colours are used in a specific and complementary way, maintaining a good level of contrast.
-    * There is a layer of red for when the user will choose a wrong answer and and gray to draw lines .
+    * The colours used throughout the site for its main styling are shown below, this mix of colours comes from [coolors](https://coolors.co/) and they were chosen for a better design to maintain a simplified pleasure for the user, he can change the mode when it suits him
 
-<img src="assets/docs/screenshots/colours.PNG" width="100%">
+    * These colours are used in a specific and complementary way, maintain a good level of contrast in both dark and light modes.
+    * There is a layer of red for when the user will choose a wrong answer and and the layer of green when he will choose the correct answer.
 
-3. Icons
+<img src="" width="100%">
 
+3. Images and Icons
+
+    * The images for some questions was sourced from [Pinterest](https://www.pinterest.com/pin/502855114653749177/).
     * Some icons have been used in the site. [Font Awesome](https://fontawesome.com/) was the main source of icons.
 
 # FEATURES

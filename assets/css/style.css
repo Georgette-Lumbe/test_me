@@ -44,11 +44,6 @@ header {
     color: #0e6cfc;
 }
 
-.logo i {
-    color: #69995d;
-    font-size: 25px;
-}
-
 /* Style the label before and after the dark mode change/ help from Tutorial*/
 label {
     position: absolute;
