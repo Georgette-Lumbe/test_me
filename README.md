@@ -396,17 +396,17 @@ These are steps to run this project within a local IDE:
 
 * The developer has consulted some websites to take diffents questions and answers for TestME quiz :
     - [70+ Multiple Choice Trivia](https://triviaquestions4u.com/multiple-choice-trivia-questions-and-answer/)
-    - []()
+    - [Fun Trivia ](https://holidappy.com/holidays/Fun-Free-Quiz-for-St-Patricks-Day)
+    - [Ultimate Vegetable Quiz Questions](https://www.ultimatequizquestions.com/vegetable-quiz-questions/)
 
 ## Media
-* The developer did not used an image for this project
+* The developer used four images for some Math questions and they was taken from [Pinterest](https://www.pinterest.com/pin/502855114653749177/).
 
 ## Code 
 
 * The developer has consulted some websites and tutorials in order to better understand and use the code for this site. Beloow are the sites and tutorials used:
 
     * [Stack Overflow](https://stackoverflow.com/)
-    * [W3Schools](https://www.w3schools.com/)
     * [Youtube](https://www.youtube.com/)
 
         Tutorials:
@@ -414,9 +414,10 @@ These are steps to run this project within a local IDE:
         - [D Greenwood](https://www.youtube.com/watch?v=ykszkgydoG4)
         - [Web Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1415s)
         - [The WebShala](https://www.youtube.com/watch?v=J8QbjXdVl9c&t=206s)
+        - [WebCode](https://www.youtube.com/watch?v=1BC_BN5Kzbo)
 
     # Acknowledgements
 
     * I would like to thank my mentor, Seun and my tutor Kasia for their helpfulness, constructive advice, feedback and guidance.
-    I would like to thank my family and my boyfriend Jimmy for all the support during this project.
+    I would like to thank my family, my friend Esther Booto, and my boyfriend Jimmy for all the support during this project.
     * I would like to thank my colleagues of Code Institute and Slack Community for sharing their posts and experience.
