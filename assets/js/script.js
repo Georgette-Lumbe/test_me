@@ -233,4 +233,5 @@ function startQuiz() {
 
 window.onload = function (){
     infoBox.querySelector('.totalQuestion').innerHTML = limitQuestion;
+    infoBox.querySelector('.accessibleQuestions').innerHTML = quiz.length;
 }
