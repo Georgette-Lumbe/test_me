@@ -189,38 +189,13 @@ The structure of the application has been designed to provide a simple and seaml
 
 Wireframes moch-up were created in a balsamiq workspace with providing a responsiviness and positive user experience in mind.
 
-* Desktop:
+* Light Mode of home, quiz and feedback boxes:
 
-<details>
-<summary>Info box, Quiz box, Feedback box</summary>
-<img src="" width="100%">
-<img src="" width="100%">
-<img src="" width="100%">
-<img src="" width="100%">
-<img src="" width="100%">
-</details>
+<img src="assets/docs/screenshots/home_light.png" width="33%"><img src="assets/docs/screenshots/quiz_light.png" width="33%"><img src="assets/docs/screenshots/feedback_light.png" width="33%">
 
-* Tablet:
+* Dark Mode of home, quiz and feedback boxes:
 
-<details>
-<summary>Info box, Quiz box, Feedback box</summary>
-<img src="" width="100%">
-<img src="" width="100%">
-<img src="" width="100%">
-<img src="" width="100%">
-<img src="" width="100%">
-</details>
-
-* Phone:
-
-<details>
-<summary>Info box, Quiz box, Feedback box</summary>
-<img src="" width="100%">
-<img src="" width="100%">
-<img src="" width="100%">
-<img src="" width="100%">
-<img src="" width="100%">
-</details>
+<img src="assets/docs/screenshots/home_dark.png" width="33%"><img src="assets/docs/screenshots/quiz_dark.png" width="33%"><img src="assets/docs/screenshots/feedback_dark.png" width="33%">
 
 ## Design
 
