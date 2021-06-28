@@ -75,6 +75,8 @@
 
     - Questions and answers are randomly so the user will find new questions.
 
+ [Go to top](#testing-user-stories "#Goto testing user stories")
+
 # Manual Testing
 
 ## Common Elements Testing
@@ -133,6 +135,8 @@ Manual testing for the share button which bring to Facebook:
 * Manual testing of the exit icon ant the logo, when they have been clicked on all boxes:
 
 ![](assets/docs/testing/test.gif)
+
+ [Go to top](#testing-user-stories "#Goto testing user stories")
 
 # Automated Testing
 
@@ -206,3 +210,12 @@ Manual testing for the share button which bring to Facebook:
 </details>
 
 # User testing
+
+Family members, Jimmy and Esther, were asked to review, test the the site to point out any bugs and issues.
+
+The following changes were made after their testing:
+
+* Change the whole color of the site
+* Correct some spelling mistakes.
+
+ [Go to top](#testing-user-stories "#Goto testing user stories")

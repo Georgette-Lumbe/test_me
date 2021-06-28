@@ -368,7 +368,8 @@ The developper met some issues during the development of the website, below are 
 6. [Am I Responsive?](http://ami.responsivedesign.is/#) was used to view the responsive design throughout the process and to generate image mock-ups for use.
 7. [Coolors](https://coolors.co/) was used for colour inspiration and pallet
 8. [Favicon](https://favicon.io/favicon-converter/) was used to convert an image to a favicon for the Love Vegetables.
-9. [FreeFormatter](https://www.freeformatter.com/) was used for formatting the html, css and javascript files
+9. [FreeFormatter](https://www.freeformatter.com/) was used for formatting the html, css and javascript files.
+10. [Image online convert](https://image.online-convert.com/fr/convertir/mp4-en-gif) was used to convert MP4 to gif.
 10. [Youtube](https://www.youtube.com/)
 
 [Go to top](#introduction "Goto introduction")
