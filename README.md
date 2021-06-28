@@ -129,6 +129,8 @@ The online quiz needs to facilitate the TestMe creator to:
 2. Get more players
 3. Get multiple users to react on the official TestME facebook account by sharing their score and discuss.
 
+[Go to top](#introduction "Goto introduction")
+
 ### Scope
 
 There are two categories of requirements that were defined in order to clearly identify what needed to be done to align the functionality with the previously defined strategy.
@@ -197,6 +199,8 @@ Wireframes moch-up were created in a balsamiq workspace with providing a respons
 
 <img src="assets/docs/wireframes/home_dark.png" width="33%"><img src="assets/docs/wireframes/quiz_dark.png" width="33%"><img src="assets/docs/wireframes/feedback_dark.png" width="33%">
 
+[Go to top](#introduction "Goto introduction")
+
 ## Design
 
 1. Typography
@@ -218,6 +222,8 @@ Wireframes moch-up were created in a balsamiq workspace with providing a respons
 
     * The images for some questions was sourced from [Pinterest](https://www.pinterest.com/pin/502855114653749177/).
     * Some icons have been used in the site. [Font Awesome](https://fontawesome.com/) was the main source of icons.
+
+[Go to top](#introduction "Goto introduction")    
 
 # FEATURES
 
@@ -275,6 +281,8 @@ Wireframes moch-up were created in a balsamiq workspace with providing a respons
 
 <img src="" width="100%" height="50%">
 
+[Go to top](#introduction "Goto introduction")
+
 ## Features to implement in the future
 
 1. The progressive Web Application (PWA)
@@ -295,9 +303,51 @@ Wireframes moch-up were created in a balsamiq workspace with providing a respons
 
 Testing information can be found in a separate [testing file](https://github.com/Georgette-Lumbe/test_me/blob/master/TESTING.md).
 
+[Go to top](#introduction "Goto introduction")
+
 # Issues and Bugs
 
 The developper met some issues during the development of the website, below are the issues, bugs and solutions that the devloper has encountered:
+
+1. Start Quiz button
+
+    * The developer met an erro to set the start quiz button, the error was: uncaught typeerror: cannot set property onclick of null and he consulted some posts for resolving this bug, below are these posts:
+
+        - [Post 1](https://discuss.codecademy.com/t/door-not-opening-error-uncaught-typeerror-cannot-set-property-onclick-of-null/495768/4)
+        - [Post 2](https://programmer.help/blogs/uncaught-typeerror-cannot-set-property-onclick-of-null-solution.html)
+        - [Post 3](https://stackoverflow.com/questions/9778888/uncaught-typeerror-cannot-set-property-onclick-of-null)
+
+2. Button with anchor
+
+    * The developer put the the anchor tag inside the share button, when all the code were passed to the validator, the developer saw that the anchor tag can not be inside the button. To achieve this, the developer consulted this [post](https://stackoverflow.com/questions/6393827/can-i-nest-a-button-element-inside-an-a-using-html5) on Stack Overflow.
+
+3. JSHint 
+
+    * The developer met an issue when he tried to pass his javascript files into the JSHint validator, the issue was about the *const and let variable* which are available in ES  or Mozilla JS extensions. To achieve this, the developer consulted this [post](https://code-institute-room.slack.com/archives/C7HD37Q1F/p1624024503237400?thread_ts=1624024503.237400&cid=C7HD37Q1F) in Slack, interactive-frontend channnel. The developer just put this: /*jshint esversion: 6 */ at the top of the JSHint, to resolve the problem.
+
+    * The developer met bugs when passing javascript files through the JSHint validator:
+
+         - Quiz variable is undefined
+
+         -  Next, getFeedback and playAgain functions was unused
+
+     - The quiz variable was not defined according to the validator. Indeed, the quiz validator was defined in another file called questions.js in which there are all the questions, options, images and answers, all defined in the quiz variable.
+     - The next and play again function are called from onclick = "" property in the html file as well as getFeedback function which is call by the next function (the last click on next button).
+
+     To have a good understanding about this, the developer told with a Code Institute Tutor who also clarified and reassured him that it is not a problem if these functions are called somewhere in the codes.
+
+4. Copyright
+
+    * The developer wanted to fix the footer with copyright in the bottom, he consulted this [post](https://stackoverflow.com/questions/44926365/how-to-make-copyright-box-stick-to-bottom-of-page) in Stack Overflow which explains well but it was not what the developer was looking for.
+
+6. Random questions and answers, time counter
+
+    * The developer met issues and bugs when he was trying to put a tome counter and random the questions and answers. The developer was obliged to restart the whole site. To achieve and understand very well all of this, he consulted some tutorials:
+
+        - [Tutorial 1](https://www.youtube.com/watch?v=ykszkgydoG4)
+        - [Tutorial 2](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1415s)
+
+[Go to top](#introduction "Goto introduction")        
 
 # Technologies used
 
@@ -318,6 +368,9 @@ The developper met some issues during the development of the website, below are 
 7. [Coolors](https://coolors.co/) was used for colour inspiration and pallet
 8. [Favicon](https://favicon.io/favicon-converter/) was used to convert an image to a favicon for the Love Vegetables.
 9. [FreeFormatter](https://www.freeformatter.com/) was used for formatting the html, css and javascript files
+10. [Youtube](https://www.youtube.com/)
+
+[Go to top](#introduction "Goto introduction")
 
 # Deployment
 
@@ -365,6 +418,8 @@ These are steps to run this project within a local IDE:
 7. Type *git clone*, and then paste the URL you copied in the step 4
 8. Press Enter. Your local clone will be created.
 
+[Go to top](#introduction "Goto introduction")
+
 # Credits
 
 ## Content 
@@ -396,3 +451,5 @@ These are steps to run this project within a local IDE:
     * I would like to thank my mentor, Seun and my tutor Kasia for their helpfulness, constructive advice, feedback and guidance.
     I would like to thank my family, my friend Esther Booto, and my boyfriend Jimmy for all the support during this project.
     * I would like to thank my colleagues of Code Institute and Slack Community for sharing their posts and experience.
+
+[Go to top](#introduction "Goto introduction")
