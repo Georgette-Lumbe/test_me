@@ -81,130 +81,58 @@
 
 Manual testing was directed on the following elements that appear on every box and page:
 
-* Hovering over social media links will be trigger hover effect and clicking on them will open a new tab.
+* Clicking on the label button will set dark mode 
 
-![]()
-
-Facebook
-
-![]()
-
-Instagram
-
-![]()
-
-Youtube
-
-![]()
+![](assets/docs/testing/test_mode.gif)
 
 ## Home Page
 
 * Manual testing for the info box when the start quiz button is clicked:
 
-![]()
+![](assets/docs/testing/test_start.gif)
 
 * The responsiveness of the Home Page with the info Box
 
-![]()
-
-- Desktop 
-
-![]()
-
-- Tablet
-
-![]()
-
-- Phone
-
-![]()
-
+![](assets/docs/testing/responsive_home.gif)
 
 ## Quiz Box
 
 * Manual testing for the quiz box
 
-![]()
+![](assets/docs/testing/test_quiz1.gif)
+![](assets/docs/testing/test_quiz2.gif)
 
 The responsiveness of the quiz box
 
-![]()
-
-- Desktop 
-
-![]()
-
-- Tablet
-
-![]()
-
-- Phone
-
-![]()
+![](assets/docs/testing/responsive_quiz.gif)
 
 ## Feedback Box
 
 Manual testing for the Feedback box when the user finish the quiz:
 
-![]()
+![](assets/docs/testing/test_feedback.gif)
 
 The responsiveness of the feedback box
 
-![]()
+![](assets/docs/testing/responsive_feedback.gif)
 
-- Desktop 
+## Share Button
 
-![]()
+Manual testing for the share button which bring to Facebook:
 
-- Tablet
+![](assets/docs/testing/test_share.gif)
 
-![]()
+## Play again button
 
-- Phone
+* Manual testing of the play again button, when it has been clicked on the feedback box:
 
-![]()
+![](assets/docs/testing/test_restart.gif)
 
-## Help box
+## Exit icon
 
-Manual testing for the help box:
+* Manual testing of the exit icon ant the logo, when they have been clicked on all boxes:
 
-![]()
-
-The responsiveness of the help page 
-
-![]()
-
-- Desktop 
-
-![]()
-
-- Tablet
-
-![]()
-
-- Phone
-
-![]()
-
-Once you fill the form, it will bring you to the thank you page:
-
-- Desktop 
-
-![]()
-
-- Tablet
-
-![]()
-
-- Phone
-
-![]()
-
-## Play again button and exit icon
-
-* Manual testing of the play again button and the exit icon, when they have been clicked on all boxes:
-
-![]()
+![](assets/docs/testing/test.gif)
 
 # Automated Testing
 
