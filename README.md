@@ -191,11 +191,11 @@ Wireframes moch-up were created in a balsamiq workspace with providing a respons
 
 * Light Mode of home, quiz and feedback boxes:
 
-<img src="assets/docs/screenshots/home_light.png" width="33%"><img src="assets/docs/screenshots/quiz_light.png" width="33%"><img src="assets/docs/screenshots/feedback_light.png" width="33%">
+<img src="assets/docs/wireframes/home_light.png" width="33%"><img src="assets/docs/wireframes/quiz_light.png" width="33%"><img src="assets/docs/wireframes/feedback_light.png" width="33%">
 
 * Dark Mode of home, quiz and feedback boxes:
 
-<img src="assets/docs/screenshots/home_dark.png" width="33%"><img src="assets/docs/screenshots/quiz_dark.png" width="33%"><img src="assets/docs/screenshots/feedback_dark.png" width="33%">
+<img src="assets/docs/wireframes/home_dark.png" width="33%"><img src="assets/docs/wireframes/quiz_dark.png" width="33%"><img src="assets/docs/wireframes/feedback_dark.png" width="33%">
 
 ## Design
 
