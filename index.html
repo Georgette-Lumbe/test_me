@@ -22,39 +22,52 @@
 </head>
 <body>
 
+    <!--==========HEADER==========-->
     <header>
 
         <!--==========Logo==========-->
         <div class="logo">
             <h1><a href="index.html"><i class="fas fa-question"></i> TestME</a></h1>
         </div>
+
+        <!--==========View mode: dark or light=========-->
         <div>
             <label class="darkChange"></label>
         </div>
     </header>
 
-    <!--==========Info Box==========-->
+    <!--==========MAIN SECTION==========-->
     <section id="home">
+
+        <!--==========INFO BOX==========-->
         <div class="infoBox customBox">
+            
+            <!--==========Some Rules==========-->
             <h2>Some Rules:</h2>
             <div>
                 <p>1. Total number of questions: <span class="totalQuestion"></span></p>
                 <p>2. Once you select your answer, you can't reselect</p>
-                <p>3. You will get your feedback at the end.</p>
-                <p>4. You can share your feedback with your friends and our community on Facebook</p>
+                <p>3. You can not pass to another question since you did not choose an option</p>
+                <p>4. You will get your feedback at the end.</p>
+                <p>5. You can share your feedback with your friends and our community on Facebook</p>
             </div>
 
+            <!--==========Start Quiz Button==========-->
             <button type="button" class="btn" onclick="startQuiz()">Start Quiz</button>
         </div>
 
-    <!--==========Quiz Box==========-->
+        <!--==========QUIZ BOX==========-->
         <div class="quizBox customBox hide">
+
+            <!--==========Exit icon==========-->
             <div class="quizIcon"><i class="fas fa-times"></i></div>
            
+            <!--==========QUESTION NUMBER IS HIDDEN AND WILL BE DISPLAY IN JAVASCRIPT==========-->
             <div class="questionNumber">
                 <!--Question 1 out of 7-->
             </div>
 
+            <!--==========QUESTIONS AND OPTIONS ARE HIDDEN AND WILL BE DISPLAY IN JAVASCRIPT==========-->
             <div class="questionText">
                 <!--Saudi Arabia is the biggest producer of?-->
             </div>
@@ -63,9 +76,13 @@
                 <div class="option">Coal</div>
                 <div class="option">Coffee</div>-->
             </div>
+
+            <!--==========Next Button==========-->
             <div class="next_btn">
                 <button type="button" class="btn" onclick="next()">Next</button>
             </div>
+
+            <!--==========INDICATOR ANSWERS ARE HIDDEN AND WILL BE DISPLAY IN JAVASCRIPT==========-->
             <div class="indicator">
                 <!--<div></div>
                 <div></div>
@@ -75,10 +92,14 @@
             </div>
         </div>
 
-    <!--==========Feedback box=========-->
+    <!--==========FEEDBACK BOX=========-->
         <div class="feedbackBox customBox hide">
+
+            <!--==========Exit icon==========-->
             <div class="feedbackIcon"><i class="fas fa-times"></i></div>
             <h1>Quiz Feedback <i class="fas fa-crown"></i></h1>
+
+            <!--==========Feedback Table==========-->
             <table>
                 <tr>
                     <td>Total Question</td>

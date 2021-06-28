@@ -1,4 +1,5 @@
-// the developer got help from YouTube Tutorials which is referenced in the README file (credits)
+// the developer consulted more youtube tutorials for better understanding, tutorials which are referenced in the README file (credits)
+
 // get all required elements
 const questionNumber =  document.querySelector('.questionNumber');
 const questionText =  document.querySelector('.questionText');
@@ -93,6 +94,8 @@ function getNewQuestion(){
        option.setAttribute('onclick', 'getFeedback(this)');
    }
     questionCounter++
+
+    // hide the next button till the user will choose an option
     nextButton.style.display = 'none';
 }
 

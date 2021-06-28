@@ -47,7 +47,7 @@ header {
     font-size: 25px;
 }
 
-/* Style the label for the dark mode change/ help from Tutorial*/
+/* Style the label before and after the dark mode change/ help from Tutorial*/
 label {
     position: absolute;
     width: 45px;
@@ -67,7 +67,7 @@ label::before {
     top: 1px;
     border-radius: 50%;
     cursor: pointer;
-    background-color: black;
+    background-color: #394648;
     transition: 0.4s;
 }
 
@@ -80,7 +80,7 @@ body.night {
     background-color: #394648;
 }
 
-/*Customise the info box*/
+/* CUSTOMISE ALL BOXES*/
 .customBox {
     max-width: 700px;
     background-color: #f8e9e9;
@@ -116,6 +116,7 @@ body.night {
     display: none;
 }
 
+/* STYLE THE INFO BOX */
 .infoBox h2 {
     font-weight: 500;
     margin-bottom: 15px;
@@ -150,7 +151,7 @@ body.night {
     cursor: pointer;
 }
 
-/*Quiz box*/
+/* STYLE THE QUIZ BOX */
 
 /* style the exit icon*/
 .quizIcon,
@@ -185,13 +186,14 @@ body.night {
     padding: 20px 0;
 }
 
-/*Style images*/
+/* style questions images */
 .questionText img {
     margin-top: 15px;
     display: block;
     max-width: 100%;
 }
 
+/* style option answers */
 .optionList .option {
     padding: 13px 15px;
     line-height: 22px;
@@ -217,6 +219,7 @@ body.night {
     }
 }
 
+/* put a hover effect to options and buttons */
 .option:hover,
 .btn:hover {
     color: #69995d;
@@ -224,6 +227,7 @@ body.night {
     border: 2px solid #69995d;
 }
 
+/* disable others options by no pointer events */
 .optionList .option.already_selected {
     pointer-events: none;
 }
@@ -258,7 +262,7 @@ body.night {
     background-color: #bfd4b9;
 }
 
-/* set the red color to the incorrect answer*/
+/* set the red color to the incorrect answer */
 .optionList .option.incorrect::before {
     content: '';
     position: absolute;
@@ -288,15 +292,16 @@ body.night {
     margin: 15px 0;
 }
 
-.indicator {
-    border-top: 1px solid gray;
-}
-
 .next_btn {
     float: right;
 }
 
-.indicator div{
+/* style the indicator answers // put a green color for the correct answer and the red for the wrong answer*/
+.indicator {
+    border-top: 1px solid gray;
+}
+
+.indicator div {
     height: 25px;
     width: 25px;
     display: inline-block;
@@ -313,7 +318,7 @@ body.night {
     background-color: red;
 }
 
-/*Style the feedback box*/
+/* STYLE THE FEEDBACK BOx*/
 
 .feedbackBox {
     text-align: center;
@@ -335,6 +340,7 @@ body.night {
     font-size: 30px;
 }
 
+/* put all feedback inside a table for better look */
 .feedbackBox table {
     width: 100%;
     border-collapse: collapse;
@@ -369,7 +375,7 @@ body.night {
     color: #69995d;
 }
 
-/* footer */
+/* FOOTER */
 
 #social_media {
     width: fit-content;
