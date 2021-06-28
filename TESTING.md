@@ -212,22 +212,28 @@ Once you fill the form, it will bring you to the thank you page:
 
 1. W3C Markup Validator service was used to validate the HTML code used.
 
-* Index html
-<img src="" width="100%" height="100%">
+* index.html
+<img src="assets/docs/screenshots/w3c_html.PNG" width="100%">
 
 2. W3C validator CSS service was used to validate the CSS code used.
 
-<img src="" width="100%" height="100%">
+* style.css
+<img src="assets/docs/screenshots/w3c_css.PNG" width="100%">
 
 3. JavaScript
 
 * script.js
 
-<img src="" width="100%" height="100%">
+  - The quiz variable that is not defined according to the validator is actually defined in another file called questions.js in which there are all the questions, options, images and answers, all defined in the quiz variable.
+  - The next and play again function are called from onclick = "" property in my html file as well as getFeedback function which is call by the next function (the last click on next button).
+
+  <img src="assets/docs/screenshots/jshint.PNG" width="100%">
 
 * questions.js
+ 
+  - The quiz variable is called in the script.js file.
 
-<img src="" width="100%" height="100%">
+  <img src="assets/docs/screenshots/jshint_questions.PNG" width="100%">
 
 ## Browser Validation
 
