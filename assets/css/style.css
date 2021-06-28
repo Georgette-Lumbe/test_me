@@ -84,6 +84,11 @@ body.night {
     color: #ffffff;
 }
 
+.feedbackIcon.night,
+.quizIcon.night {
+    color: #ffffff;
+}
+
 /* CUSTOMISE ALL BOXES*/
 .customBox {
     max-width: 700px;

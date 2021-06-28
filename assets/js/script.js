@@ -19,6 +19,8 @@ let content = document.getElementsByTagName('body')[0];
 let boxOne = document.querySelector('.infoBox');
 let boxTwo = document.querySelector('.quizBox');
 let boxThree = document.querySelector('.feedbackBox');
+let feedbackIcon = document.querySelector('.feedbackIcon');
+let quizIcon = document.querySelector('.quizIcon');
 let darkMode = document.querySelector('.darkChange');
 darkMode.addEventListener('click', function(){
     darkMode.classList.toggle('active');
@@ -26,6 +28,8 @@ darkMode.addEventListener('click', function(){
     boxOne.classList.toggle('night');
     boxTwo.classList.toggle('night');
     boxThree.classList.toggle('night');
+    feedbackIcon.classList.toggle('night');
+    quizIcon.classList.toggle('night');
 })
 
 const limitQuestion = 7;
