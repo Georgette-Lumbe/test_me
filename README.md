@@ -250,17 +250,16 @@ Wireframes moch-up were created in a balsamiq workspace with providing a respons
 
 ### HOME PAGE
 
-1. Header Logo & Navigation Bar
+1. Header
 
-    * The header contains a conventionally placed logo at the top left of the page (redirects the user to the home page in one click)
-
-    * The header is fixed so the user can see it if he goes to the bottom of the page.
+    * The header contains a conventionally placed logo at the top left of the page (redirects the user to the home page in one click).
+    * At the top right, there is a label for switching the mode of the site.
 
 <img src="" width="100%" height="25%">
 
 2. Landing Page 
 
-    * The landing page includes a colour green #69995D as a background with a info box overlaid 
+    * The landing page includes a colour white or black as a background with a info box overlaid.
 
 <img src="" width="100%" height="50%">
 
@@ -277,10 +276,9 @@ Wireframes moch-up were created in a balsamiq workspace with providing a respons
     * This section allows the user to view :
         - The quiz and start playing.
         - A counter that show what question user is on
-        - A counter that shows the user how much time he has left
         - Questions
         - Three options of which only one is correct
-        - Correct and incorrect section, which show how many questions that the user got wrong and correct.
+        - Indicator answers, which show how many questions that the user got wrong and correct.
 
     * It also allows the user to either move on to another question or exit the quiz by the exit icon at the top right of the box.
     * It is represented by a box of text (quiz)
@@ -290,56 +288,33 @@ Wireframes moch-up were created in a balsamiq workspace with providing a respons
 
 5. Feedback section
 
-    * In this section, the user will have the feedback on his quiz. He will be able to see his score, his percentage and his attempt, and make the choice to eitheir restart the quiz, ask for help or exit the feedback by the exit icon at the top right of the box.. 
+    * In this section, the user will have the feedback on his quiz. He will be able to see his attempt, his score, his percentage and how many questions he got wrong and correct, and make the choice to eitheir restart the quiz, share his score or exit the feedback by the exit icon at the top right of the box.. 
     * It is represented by a box of text (feedback).
     * In fact, this section is hidden and to see it, just finish the quiz.
 
 <img src="" width="100%" height="50%">
 
-6. Help Box
-
-    * This box allows the user to ask for help and to submit questions to the creator.
-    * It is represented by a contact form .
-    * In this box, the user can either send the form by clicking on the send button at the bottom of the box or exit the help box by clicking on the exit icon at the top right of the box.
-    * In fact, this section is hidden and to see it, just click on the *Need help button* to the bottom right of the feedback box.
-    
-
-<img src="" width="100%" height="50%">
-
-7. Thank you Box 
-
-    * A thank you message will be addressed to the user after sending his question.
-    * In this box, the user can either restart the quiz by clicking on the restart quiz button at the bottom of the box or exit the the thank you box by clicking on the exit icon at the top right of the box 
-    * This section is also hidden and to see it, just click on *send* to the bottom of the help box.
-
-<img src="" width="100%" height="50%">
-
 8. Footer
 
-    * This section provides the links to the main TestME social pages with a light background color, just click on the icon to be redirected to the platform of the centre of your choice. 
-
-    * This section allows customers to stay connected with the Love Gegetables community.
+    * This section shows the copyright and the name of the creator.
 
 <img src="" width="100%" height="50%">
 
 ## Features to implement in the future
 
-1. Pause option
+1. The progressive Web Application (PWA)
 
-    * Features: add a pause option in the quiz box to allow the user to pause the quiz whenever he wants.
-    * Reason for not featuring in this release: since, there is a time counter, the developer decided better not to put the pause option, since by setting this option the time counter will not be of any importance. But in the future, the developer will put this option and each time the user will press pause, the question he paused will automatically change when he will resume the quiz.
-
-2. Info icon
-
-    * Features: add an info icon in the quiz, near refresh and exit icons, to allow the user to review the instructions whenever he wants.
-    * Reason for not featuring in this release: following the presence of the time counter, the info icon can delay the user in his quiz when he will press this to review the instructions. But in the future, the developer will put this option and each time the user will press info icon, the question will automatically change when he will exit the info box.
-
-3. Implement the progressive Web Application (PWA)
-
-    * Features: implement the PWA to allow users to install the application on their own devices.
+    * Feature: implement the PWA to allow users to install the application on their own devices.
     * Reason for not featuring in this release: the web developer needs more knowledge on this subject.
 
-4. Competition within users on Facebook
+2. Competition within users on Facebook and Instagram
+
+    * Feature: implement an option for players to compete with each other, and to invite their friends to participate in TestME quiz.
+    * Reason for not featuring in this release: the web developer needs more knowledge on this subject.
+
+3. Register
+
+    * Feature: allow users to register and create a username, to save their score.
 
 # Testing
 
