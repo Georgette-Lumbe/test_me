@@ -2,9 +2,9 @@
 
 [Main README.md file](https://github.com/Georgette-Lumbe/test_me/blob/master/README.md)
 
-[View live project]()
+[View live project](https://georgette-lumbe.github.io/test_me/)
 
-[View website in GitHub pages][]
+[View website in GitHub pages](https://github.com/Georgette-Lumbe/test_me)
 
 ---
 
@@ -239,19 +239,19 @@ Once you fill the form, it will bring you to the thank you page:
 
 1. Chrome
 
-<img src="" width="100%" height="100%">
+<img src="assets/docs/testing/chrome.PNG" width="100%">
 
 2. Edge
 
-<img src="" width="100%" height="100%">
+<img src="assets/docs/testing/edge.PNG" width="100%">
 
 3. Opera
 
-<img src="" width="100%" height="100%">
+<img src="assets/docs/testing/opera.PNG" width="100%">
 
 4. Firefox
 
-<img src="" width="100%" height="100%">
+<img src="assets/docs/testing/firefox.PNG" width="100%">
 
 ## Lighthouse Auditing
 
@@ -259,24 +259,22 @@ Once you fill the form, it will bring you to the thank you page:
 
 <details>
 <summary>Desktop</summary>
-<img src="" width="100%" height="100%">
-<img src="" width="100%" height="100%">
-<img src="" width="100%" height="100%">
-<img src="" width="100%" height="100%">
-<img src="" width="100%" height="100%">
-<img src="" width="100%" height="100%">
-<img src="" width="100%" height="100%">
+<img src="assets/docs/testing/lighthouse_desktop1.PNG" width="100%">
+<img src="assets/docs/testing/lighthouse_desktop2.PNG" width="100%">
+<img src="assets/docs/testing/lighthouse_desktop3.PNG" width="100%">
+<img src="assets/docs/testing/lighthouse_desktop4.PNG" width="100%">
+<img src="assets/docs/testing/lighthouse_desktop5.PNG" width="100%">
+<img src="assets/docs/testing/lighthouse_desktop6.PNG" width="100%">
 </details>
 
 <details>
 <summary>Mobile</summary>
-<img src="" width="100%" height="100%">
-<img src="" width="100%" height="100%">
-<img src="" width="100%" height="100%">
-<img src="" width="100%" height="100%">
-<img src="" width="100%" height="100%">
-<img src="" width="100%" height="100%">
-<img src="" width="100%" height="100%">
+<img src="assets/docs/testing/lighthouse_mobile1.PNG" width="100%">
+<img src="assets/docs/testing/lighthouse_mobile2.PNG" width="100%">
+<img src="assets/docs/testing/lighthouse_mobile3.PNG" width="100%">
+<img src="assets/docs/testing/lighthouse_mobile4.PNG" width="100%">
+<img src="assets/docs/testing/lighthouse_mobile5.PNG" width="100%">
+<img src="assets/docs/testing/lighthouse_mobile6.PNG" width="100%">
 </details>
 
 # User testing
